@@ -1,7 +1,7 @@
 const net = require("net");
-const {conn,host,port}=require("./client.js");
+const connect =require("./client.js");
 
 
 
 console.log("Connecting ...");
-//connect();
+connect();
